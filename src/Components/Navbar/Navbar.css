@@ -1,0 +1,17 @@
+#Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Nav-Links {
+      display: none;
+    }
+  }
+
+
+.Nav-Links a {
+    padding: 1em;
+  }
