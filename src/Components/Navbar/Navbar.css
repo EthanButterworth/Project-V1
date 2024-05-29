@@ -6,12 +6,16 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .Nav-Links {
+    .Navbar-Links {
       display: none;
     }
   }
 
 
-.Nav-Links a {
+.Navbar-Links a {
     padding: 1em;
+  }
+
+  .Logo {
+    font-size: 1.5rem;
   }
