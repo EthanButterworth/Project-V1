@@ -1,12 +1,14 @@
+// src/App.js
+import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
+import BurgerMenu from './components/BurgerMenu';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
+      <header className="App-header">
+        <BurgerMenu />
+      </header>
     </div>
   );
 }
