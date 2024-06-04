@@ -1,0 +1,18 @@
+#NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
