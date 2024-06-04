@@ -16,9 +16,9 @@ const NavBar = () => {
           <img src={MyLogo} className='Logo'></img>
         </a>
         {isFirstButton ? (
-            <button onClick={toggleButton}>☰</button>
+            <button>☰</button>
         ) : (
-            <button onClick={toggleButton}>x</button>
+            <button>x</button>
         )}
     </div>
   )
