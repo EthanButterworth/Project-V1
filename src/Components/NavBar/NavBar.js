@@ -4,11 +4,6 @@ import MyLogo from '../../Assets/My-Logo.png'
 
 const NavBar = () => {
 
-    const [isFirstButton, setIsFirstButton] = useState(true);
-
-    const toggleButton = () => {
-        setIsFirstButton(!isFirstButton);
-    }
 
   return (
     <div id='NavBar'>
@@ -16,9 +11,9 @@ const NavBar = () => {
           <img src={MyLogo} className='Logo'></img>
         </a>
         {isFirstButton ? (
-            <button>☰</button>
+            <button onClick={handleClick}>☰</button>
         ) : (
-            <button>x</button>
+            <button onClick={handleClick}>x</button>
         )}
     </div>
   )
