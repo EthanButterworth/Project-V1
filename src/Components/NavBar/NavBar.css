@@ -2,9 +2,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: aqua;
-    padding: 30px 50px 30px 50px;
-    height: 15vh;
+    background: green;
+    height: 10vh;
+    position: sticky;
+    top: 0;
 }
 
 nav ul{
@@ -48,25 +49,25 @@ nav ul li a:hover{
     .MobileNavigation{
         display: flex;
         align-items: center;
-        height: 15vh;
+        height: 10vh;
     }
 
     .HamburgerMenu{
         position: absolute;
-        right: 15%;
+        right: 2%;
         cursor: pointer;
     }
 
     .NavLinks ul{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        align-items: end;
         position: absolute;
-        border-top: 3px solid orange;
-        top: 15vh;
+        top: 10vh;
         right: 0;
-        height: 50vh;
+        height: 90vh;
         width: 100%;
-        background:blue;
+        background:white;
     }
 }

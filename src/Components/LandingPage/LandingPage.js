@@ -6,22 +6,25 @@ const LandingPage = () => {
     <div id='Landing-Page'>
       <div className='Header'>
         <h1>Butter-Log</h1>
-        <p>Log with the butter on.</p>
+        <p>Log with the butter on</p>
       </div>
       <div className='Content'>
         <div>
           <a href=''>
-            <img></img>
+            <img src='https://picsum.photos/id/28/600/800/'></img>
+            <h2>Travelling</h2>
           </a>
         </div>
         <div>
           <a href=''>
-            <img></img>
+            <img src='https://picsum.photos/id/117/600/800'></img>
+            <h2>Concerts</h2>
           </a>
         </div>
         <div>
           <a href=''>
-            <img></img>
+            <img src='https://picsum.photos/id/250/600/800'></img>
+            <h2>Painting</h2>
           </a>
         </div>
       </div>

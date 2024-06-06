@@ -1,0 +1,24 @@
+#Landing-Page img {
+    background-color: green;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.Header {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Landing-Page a {
+    text-align: left;
+}
