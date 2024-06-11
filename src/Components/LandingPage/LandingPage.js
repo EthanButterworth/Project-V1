@@ -11,19 +11,19 @@ const LandingPage = () => {
       <div className='Content'>
         <div>
           <a href=''>
-            <img src='https://picsum.photos/id/28/600/800/'></img>
+            <img src=''></img>
             <h2>Travelling</h2>
           </a>
         </div>
         <div>
           <a href=''>
-            <img src='https://picsum.photos/id/117/600/800'></img>
+            <img src=''></img>
             <h2>Concerts</h2>
           </a>
         </div>
         <div>
           <a href=''>
-            <img src='https://picsum.photos/id/250/600/800'></img>
+            <img src=''></img>
             <h2>Painting</h2>
           </a>
         </div>

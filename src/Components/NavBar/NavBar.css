@@ -27,13 +27,13 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: white;
+    color: green;
     transition: .3s;
 }
 
 .Logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .MobileNavigation{
@@ -66,7 +66,7 @@ nav ul li a:hover{
         position: absolute;
         top: 10vh;
         right: 0;
-        height: 90vh;
+        height: auto;
         width: 100%;
         background:white;
     }
