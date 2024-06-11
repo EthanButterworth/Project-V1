@@ -1,12 +1,11 @@
 import React from 'react'
-import DesktopNavigation from './DesktopNavigation'
-import MobileNavigation from './MobileNavigation.js'
+import './NavBar.css'
+import MyLogo from '../../Assets/My-Logo.png'
 
 const NavBar = () => {
   return (
-    <div>
-        <DesktopNavigation />
-        <MobileNavigation />
+    <div id='NavBar'>
+      <img src={MyLogo} className='Logo'></img>
     </div>
   )
 }
